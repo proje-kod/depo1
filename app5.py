@@ -7,7 +7,13 @@ import plotly.express as px
 from datetime import datetime
 import pytz
 import time
+# Sayfanın en üstüne ekleyin
+from streamlit_autorefresh import st_autorefresh
 
+# Her 60.000 milisaniyede (1 dakika) sayfayı yenile
+# Bu komut 'time.sleep' ve 'st.rerun' yerine geçer.
+# Bisiklet sadece bu 60 saniye dolduğunda 1 kez görünür ve kaybolur.
+st_autorefresh(interval=60000, key="datarefresh")
 # Sayfa Ayarları
 st.set_page_config(page_title="Borsa Takip Paneli", layout="wide", page_icon="📈")
 
