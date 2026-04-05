@@ -1,2 +1,2 @@
-# portfoy_takip
-Borsadaki hisseleri takip amaçlı uygulama (Python)
+depo1
+hakkında bilgi eklenebilir
