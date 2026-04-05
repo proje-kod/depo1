@@ -21,8 +21,8 @@ def format_tl(deger):
 
 # Veriyi GitHub'daki dosyadan OKUMA
 def veri_yukle():
-    if os.path.exists("portfoyum.json"):
-        with open("portfoyum.json", "r", encoding="utf-8") as f:
+    if os.path.exists("deneme1.json"):
+        with open("deneme1.json", "r", encoding="utf-8") as f:
             return json.load(f)
     return {}
 
@@ -31,7 +31,7 @@ col_baslik, col_saat = st.columns([3, 1])
 
 with col_baslik:
     st.title("📊 Portföy İzleme Paneli")
-    st.caption("Veriler GitHub 'portfoyum.json' dosyasından okunmaktadır.")
+    st.caption("Veriler GitHub 'deneme1.json' dosyasından okunmaktadır.")
 
 with col_saat:
     # Büyük ve şık bir saat kutusu
