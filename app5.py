@@ -22,8 +22,8 @@ def format_tl(deger):
 
 # GitHub'daki JSON dosyasını OKU
 def veri_yukle():
-    if os.path.exists("portfoyum.json"):
-        with open("portfoyum.json", "r", encoding="utf-8") as f:
+    if os.path.exists("deneme2.json"):
+        with open("deneme2.json", "r", encoding="utf-8") as f:
             return json.load(f)
     return {}
 
