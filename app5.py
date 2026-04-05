@@ -11,8 +11,8 @@ st.set_page_config(page_title="Borsa İzleme Paneli", layout="wide", page_icon="
 
 # Veri Yükleme (GitHub'daki JSON)
 def veri_yukle():
-    if os.path.exists("portfoyum.json"):
-        with open("portfoyum.json", "r", encoding="utf-8") as f:
+    if os.path.exists("deneme2.json"):
+        with open("deneme2.json", "r", encoding="utf-8") as f:
             return json.load(f)
     return {}
 
