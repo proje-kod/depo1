@@ -125,9 +125,9 @@ if hisse_data:
             color = '#27ae60' if val > 0 else '#c0392b' if val < 0 else '#7f8c8d'
             return f'color: {color}; font-weight: bold'
 
-        # Tabloyu formatla ve renklendir
+# Tabloyu formatla ve renklendir
         df_styled = df.sort_values(by="TUTAR", ascending=False).style\
-            .applymap(color_kz, subset=['K/Z (TL)', 'YÜZDE (%)'])\
+            .map(color_kz, subset=['K/Z (TL)', 'YÜZDE (%)'])\
             .format({
                 'ALIŞ': '{:,.2f}',
                 'GÜNCEL': '{:,.2f}',
