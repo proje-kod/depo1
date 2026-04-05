@@ -129,6 +129,7 @@ if hisse_data:
         df_styled = df.sort_values(by="TUTAR", ascending=False).style\
             .map(color_kz, subset=['K/Z (TL)', 'YÜZDE (%)'])\
             .format({
+                'ADET': '{:,.0f}',
                 'ALIŞ': '{:,.2f}',
                 'GÜNCEL': '{:,.2f}',
                 'TUTAR': '{:,.2f}',
