@@ -123,6 +123,4 @@ if hisse_data:
                      'TUTAR': '{:,.2f}', 'K/Z (TL)': '{:,.2f}', 'YÜZDE (%)': '%{:.2f}'})
         st.dataframe(df_sorted, use_container_width=True, hide_index=True)
 
-# --- DAKİKALIK DÖNGÜ ---
-time.sleep(60) # 60 saniye boyunca bekle
-st.rerun()    # Sayfayı ve saati güncelle
+
