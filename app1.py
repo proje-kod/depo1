@@ -41,7 +41,7 @@ with col_saat:
         border: 2px solid #38bdf8; margin-top: 10px;">
             🕒 {guncel_saat_getir()}
         </div>
-    """, unsafe_allow_none=True)
+    """, unsafe_allow_html=True) # Burası html olarak güncellendi
 
 portfoy = veri_yukle()
 
