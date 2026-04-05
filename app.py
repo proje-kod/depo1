@@ -6,7 +6,7 @@ import pandas as pd
 from datetime import datetime
 
 # Dosya Ayarları
-DATA_FILE = "portfoyum.json"
+DATA_FILE = "deneme1.json"
 
 # Sayfa Konfigürasyonu
 st.set_page_config(page_title="Borsa Portföy Takip", layout="wide")
