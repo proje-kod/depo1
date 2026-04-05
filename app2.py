@@ -7,7 +7,7 @@ from datetime import datetime
 import plotly.express as px  # Grafik için yeni kütüphane
 
 # Dosya Ayarları
-DATA_FILE = "portfoyum.json"
+DATA_FILE = "deneme1.json"
 
 # Sayfa Konfigürasyonu
 st.set_page_config(page_title="Borsa Portföy Analizi", layout="wide")
