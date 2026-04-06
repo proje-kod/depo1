@@ -30,7 +30,7 @@ def veri_yukle():
 col_baslik, col_saat = st.columns([3, 1])
 
 with col_baslik:
-    st.title("📊 Portföy İzleme Paneli")
+    st.title("Deneme projesi")
     st.caption("Veriler GitHub 'deneme2.json' dosyasından okunmaktadır.")
 
 with col_saat:
