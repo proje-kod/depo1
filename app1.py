@@ -8,7 +8,7 @@ from datetime import datetime
 import pytz # Saat dilimi için
 
 # Sayfa Ayarları
-st.set_page_config(page_title="Portföy & Borsa Takip", layout="wide", page_icon="📈")
+st.set_page_config(page_title="Deneme projesi", layout="wide")
 
 # Türkiye Saat Dilimi Ayarı
 def guncel_saat_getir():
